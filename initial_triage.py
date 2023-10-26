@@ -1,5 +1,6 @@
 import subprocess
 import os
+import sys
 
 def find_profile(dump_file):
     # Use volatility to find the profile for the given dump file
@@ -20,7 +21,12 @@ def run_volatility_command(dump_file, profile, command, output_file):
     subprocess.run(volatility_command, shell=True)
 
 def main():
-    dump_file = "path/to/your/dump/file.dmp"
+    # Check if a dump file is provided as a command-line argument
+    if len(sys.argv) != 2:
+        print("Usage: python3 initial_triage.py <dump_file>")
+        sys.exit(1)
+
+    dump_file = sys.argv[1]
     
     # Find the profile for the dump file
     profile = find_profile(dump_file)
