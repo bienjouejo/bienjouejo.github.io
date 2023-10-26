@@ -1,19 +1,12 @@
-# Writups & Tools & ideas
-
-Some basic Git commands are:
-```
-git status
-git add
-git commit
-```
-
-Text that is not a quote
+# Writups & Tools & ideas woohooo 
 
 > Text that is a quote
 
-# A first-level heading
-## A second-level heading
-### A third-level heading
+## Tools
+
+### Forensic: initial-triage
+Initial triage is a python program that helps retrieve the basic information during a forensic analyse, it requires a dump file as an input.
+It creates text files as outputs named after the volatility command.
 
 The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
