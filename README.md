@@ -10,6 +10,8 @@ It creates text files as outputs named after the volatility command in a folder 
 
 requirements: volatility2 installed and working as a cmdline > $ volatility -f ...
 
+usage: python3 initial_triage.py (memory dump file)
+
 ## Ideas
 
 initial-triage: make a version for volatility2 and 3, the current one works with volatility2 only.
