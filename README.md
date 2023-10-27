@@ -6,7 +6,7 @@
 
 ### Forensic: initial-triage
 Initial triage is a python program that helps retrieve the basic information during forensic analysis, it requires a dump file as an input.
-It creates text files as outputs named after the volatility command.
+It creates text files as outputs named after the volatility command in a folder named "result_initial_triage".
 
 requirements: volatility installed and working as a cmdline > $ volatility -f ...
 
