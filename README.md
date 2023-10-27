@@ -8,7 +8,13 @@
 Initial triage is a python program that helps retrieve the basic information during forensic analysis, it requires a dump file as an input.
 It creates text files as outputs named after the volatility command in a folder named "result_initial_triage".
 
-requirements: volatility installed and working as a cmdline > $ volatility -f ...
+requirements: volatility2 installed and working as a cmdline > $ volatility -f ...
+
+## Ideas
+
+initial-triage: make a version for volatility2 and 3, the current one works with volatility2 only.
+
+## Notes
 
 The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
