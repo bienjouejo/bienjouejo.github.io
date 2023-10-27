@@ -41,7 +41,7 @@ def main():
         print(f"Profile found: {profile}")
 
         # Define Volatility commands to run
-        volatility_commands = ["pslist", "netscan", "filescan"]
+        volatility_commands = ["pslist", "netscan", "filescan", "consoles", "iehistory", ""]
 
         # Run each Volatility command and save output to a text file in the output folder
         for command in volatility_commands:
