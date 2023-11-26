@@ -15,8 +15,8 @@ usage: python3 initial_triage.py (memory dump file)
 ## Ideas
 
 initial-triage: make a version for volatility2 and 3, the current one works with volatility2 only.
-Add a sub folder in the result_initial_triage named "browser" where i put the result of the commands consoles, iehistory, and cache files of firefox, edge etc... 
 
+Put the cache files of chrome,firefox,ie in the sub-folder browser
 ## Notes
 
 The background color is `#ffffff` for light mode and `#000000` for dark mode.
